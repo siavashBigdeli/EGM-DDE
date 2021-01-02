@@ -9,7 +9,12 @@ by S. A. Bigdeli, G. Lin, T. Portenier, L. A. Dunbar, M. Zwicker
 | --- | --- | --- |
 | <img src="example_images/den_real.gif" width="380"> | <img src="example_images/den_fake.gif" width="400"> | <img src="example_images/samples.gif" width="400"> |
 
+Energy-based Generative Models use density representations of both real and generated data samples to compute their KL-divergence.
+Given that the optimization only requires the gradients of the KL-divergence loss, the densities do not need to be normalized.
+This gives the opportunity to use energy models that are not normalized (e.g. DDEs), but are very efficient in training and inference.
+Table below summarizes the benefits of these models compared to other techniques:
 
+<img src="example_images/comparison.png" width="500"> 
 
 The code example uses Tensorflow 2, numpy, and matplotlib (for visualizaiton)
 
