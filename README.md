@@ -1,6 +1,6 @@
-# Tutorial on DDEs using TensorFlow2
+# Tutorial on Energy-based Generative Models using TensorFlow2
 
-This is a brief tutorial on learning Energy-based Generative Models, using denoising density esimators (DDEs):
+This is a brief tutorial on learning Energy-based Generative Models, using denoising density esimators ([DDEs](https://github.com/siavashBigdeli/DDE)):
 
 Article: Learning Generative Models using Denoising Density Estimators ([pdf](https://arxiv.org/abs/2001.02728))
 by S. A. Bigdeli, G. Lin, T. Portenier, L. A. Dunbar, M. Zwicker
