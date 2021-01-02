@@ -29,3 +29,6 @@ The code example uses Tensorflow 2, numpy, and matplotlib (for visualizaiton)
 Generated results on 32 × 32 images from the celebA dataset using DDEs. (See Geng's repositor for its implementation)
 
 <img src="example_images/celeba_results.png" width="800"> 
+
+### License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
