@@ -5,6 +5,7 @@
 # 2. The network needs to be twice-differentiable: i.e use activations that are everywhere differentiable (e.g. Sigmoid)
 
 from tensorflow import keras
+import tensorflow as tf
 
 class DDE(keras.Model):
     def __init__(self, net_model):
@@ -17,7 +18,6 @@ class DDE(keras.Model):
 
     # Replace the call function of the model to include the gradient computation
     def call(self, noisy_input):
-
         # 1. Get the discriminator output for this interpolated image.
         with tf.GradientTape() as gp_tape:
             gp_tape.watch(noisy_input)
